@@ -87,24 +87,6 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
-This is a simple and secure on-chain Voting smart contract built using Solidity. It allows participants to:
-1. Register themselves as candidates by paying ETH.
-2. Allow voters to cast votes for registered candidates.
-3. Let the contract owner pick the winning candidate based on votes.
-4. Transfer all collected ETH to the winner.
-
-
-✨ Features
-✅ Transparent ETH-based registration for candidates
-✅ One-vote-per-address enforcement
-✅ Fully on-chain voting and result computation
-✅ Prize pool distributed to winner securely
-✅ Protected owner-only access to result declaration
-
-✨Security Considerations
-✅onlyOwner modifier ensures only the deployer can pick a winner.
-✅Voter addresses are tracked to prevent duplicate votes.
-✅Reverts are used to enforce proper flow (e.g., voting only for existing candidates).
 
 
 
